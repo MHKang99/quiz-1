@@ -1,0 +1,199 @@
+.main-container {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    height: max-content;
+}
+
+.main_icon {
+    margin: 10pt;
+    width: 50pt;
+    height: 50pt;
+    border-radius: 10pt;
+}
+
+.nav-item-sign-in {
+    position: absolute;
+    top: 25pt;
+    right: 25pt;
+    width: 50pt;
+    background-color: grey;
+    border-radius: 3pt;
+    text-align: center;
+    padding: 8px 5px;
+    text-decoration: none;
+}
+
+.nav-item1 {
+    position: absolute;
+    top: 25pt;
+    right: 100pt;
+    width: 50pt;
+    background-color: grey;
+    border-radius: 3pt;
+    text-align: center;
+    padding: 8px 5px;
+}
+.navbar-link {
+    text-decoration: none;
+    color: azure;
+
+    
+}
+
+.nav-item2 {
+    position: absolute;
+    top: 14pt;
+    right: 180pt;
+    color: grey;
+
+}
+
+.nav-item3 {
+    position: absolute;
+    top: 19pt;
+    right: 25pt;
+    padding: 8px 5px;
+}
+
+.sign-out-btn {
+    background-color: grey;
+    border: none;
+    color: azure;
+    padding: 8px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3pt;
+}
+
+.navbar {
+    border-bottom: solid 1px;
+    border-color: grey;
+}
+
+.profile_pic {
+    width: 40pt;
+    height: 40pt;
+    border-radius: 10pt;
+}
+
+.profile_pic_container {
+    margin: 10pt;
+}
+
+.post {
+    margin-top: -50pt;
+    margin-left: 60pt;
+}
+
+.cluck_container {
+    margin: 10pt;
+    border: 1px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 10pt;
+}
+
+.img_url {
+    height: calc(80% - 15pt);
+    width: calc(80% - 15pt);
+    margin-bottom: 10pt;
+    margin-right: 10pt;
+}
+
+.cluck_container-new {
+    height: 280pt;
+    margin: 10pt;
+    border: 1px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 10pt;
+}
+
+.content-title {
+    margin: 10pt;
+    position: absolute;
+    top: 90pt;
+    left: 18pt;
+    color: grey;
+}
+
+.text-area {
+    margin: 10pt;
+    position: absolute;
+    top: 110pt;
+    left: 18pt;
+    width: calc(100% - 60pt);
+    color: grey;
+}
+
+.label-img_url {
+    margin: 10pt;
+    position: absolute;
+    top: 250pt;
+    left: 18pt;
+    color: grey;
+}
+
+.input-img_url {
+    margin: 10pt;
+    position: absolute;
+    top: 270pt;
+    left: 18pt;
+    width: calc(100% - 60pt);
+    height: 30pt;
+    color: grey;
+}
+
+.cluck-btn {
+    margin: 10pt;
+    position: absolute;
+    top: 320pt;
+    right: 18pt;
+    height: 30pt;
+    width: 80pt;
+    background-color: white;
+    border-radius: 3pt;
+    color: grey;
+}
+
+.cluck_container-login {
+    height: 120pt;
+    margin: 10pt;
+    border: 1px;
+    border-style: solid;
+    border-color: grey;
+    border-radius: 10pt;
+}
+
+.label-username {
+    margin: 10pt;
+    position: absolute;
+    top: 90pt;
+    left: 18pt;
+    color: grey
+}
+
+.input-username {
+    margin: 10pt;
+    position: absolute;
+    top: 110pt;
+    left: 18pt;
+    height: 30pt;
+    width: calc(100% - 60pt);
+    color: grey;
+}
+
+.username-btn {
+    margin: 10pt;
+    position: absolute;
+    top: 155pt;
+    right: 18pt;
+    height: 30pt;
+    width: 80pt;
+    background-color: white;
+    border-radius: 3pt;
+    color: grey;
+}

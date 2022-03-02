@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cluck</title>
+    <link rel="stylesheet" href="/css/stylesheet.css">
+</head>
+<body>
+    <div class="main-container">
+    <div class="navbar">
+        <div>
+            <a href="/"><img class="main_icon" src="https://images.unsplash.com/photo-1583510383754-35fc1d1eb598?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt=""></a>
+        </div>
+        <div>
+            <% if (username) {%>
+                <div class="nav-item1">
+                    <a class="navbar-link" href="/newCluck">Cluck!</a>
+                </div>
+                <div class="nav-item2">
+                    <h4>Signed in as <%- username %> </h4>
+                </div>
+                <div class="nav-item3">
+                    <form action="/sign_out" method="post">
+                    <input class="sign-out-btn" type="submit" value="Sign Out">
+                    </form>
+                </div>
+            <% } else {%> 
+                <div>
+                    <a class="nav-item1 navbar-link" href="/">Cluck!</a>
+                    <a class="nav-item-sign-in navbar-link" href="/login">Sign In</a>
+
+                </div>
+            <% } %> 
+        </div>
+    </div>

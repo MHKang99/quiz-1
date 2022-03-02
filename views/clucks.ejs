@@ -1,0 +1,27 @@
+<%- include('./partials/header.ejs') %> 
+
+<div> 
+    <% if (clucks) { %>
+        <% clucks.forEach(element => { %>
+            <div class="cluck_container">
+                <div class="profile_pic_container">
+                    <img class="profile_pic" src="https://media.istockphoto.com/photos/free-range-healthy-brown-organic-chickens-and-a-white-rooster-picture-id1343268273?s=612x612" alt="profile_picture">
+                </div>
+                <div class="post">
+                    <h4 ><%- element.username %> | <%- element.created_at %> <br></h4>
+                    <p class="content"><%- element.content %> </p>
+                    <% if (element.img_url) { %>
+                        <div>
+                            <img class="img_url" src="<%- element.img_url %> " alt="img_url">
+                        </div>
+                    <% } %> 
+                </div>
+                
+            </div>
+        <% }); %> 
+    <% } %> 
+
+</div>
+
+
+<%- include('./partials/footer.ejs') %> 

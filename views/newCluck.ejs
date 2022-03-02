@@ -1,0 +1,12 @@
+<%- include('./partials/header.ejs') %> 
+<div class="cluck_container-new">
+    <form action="/makeNew" method="post">
+        <label class="content-title" for="content">Content</label>
+        <textarea class="text-area" name="content" cols="50" rows="10" placeholder="Whatchoo cluckin' 'bout?"></textarea>
+        <label class="label-img_url" for="img_url">Image Url</label>
+        <input class="input-img_url" type="text" name="img_url">
+        <button class="cluck-btn" type="submit">Cluck!</button>
+    </form>
+</div>
+
+<%- include('./partials/footer.ejs') %> 
